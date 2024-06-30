@@ -47,6 +47,8 @@ var connection = mysql.createPool({
   // database: "sql_yuviwin_thix",
 });
 
+console.log('connection successfully', connection);
+
 function setcrash() {
   const nxtQuery = "SELECT * FROM aviset WHERE id = 1";
   connection.query(nxtQuery, (err, nxtResult) => {
