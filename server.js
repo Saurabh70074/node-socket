@@ -36,9 +36,8 @@ var newPeriodStartTime = 20;
 
 var connection = mysql.createPool({
   connectionLimit: 2,
-  host: "127.0.0.1",
+  host: "localhost",
   user: "root",
-  port: "3306",
   password: "saurabh",
   database: "yuviwin_game",
   // connectionLimit: 2,
