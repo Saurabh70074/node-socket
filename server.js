@@ -392,7 +392,7 @@ io.on("connection", (socket) => {
   });
 });
 setcrash();
-httpsServer.listen(port, '0.0.0.0', () => {
+httpsServer.listen(port, () => {
   console.log(`Server running at :${port}/`);
 
 });
