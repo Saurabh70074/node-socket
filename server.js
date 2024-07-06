@@ -16,7 +16,7 @@ const httpsServer = http.createServer({
     rejectUnauthorized: false
 });
 const corsOptions = {
-  origin: "https://yuviwin.thixpro.com",
+  origin: "http://127.0.0.1:8000",
   credentials: true, 
   methods: ["GET", "POST"]
 };
